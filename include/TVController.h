@@ -3,14 +3,23 @@
 
 #include "Tuner.h"
 #include "remoteKey.h"
+#include <algorithm>
 #include <string>
+#include <vector>
+
 
 class TVController {
 private:
   Tuner *tuner;
-  int inputBuffer_ = -1; // -1: 버퍼 비어있음
+  int inputBuffer_ = -1;       // -1: 버퍼 비어있음
+  std::vector<int> favorites_; // 선호 채널 목록
 
-  // PDF 15p 힌트: 채널 적용 전 유효성 검사 및 실제 튜너 호출
+  bool isFavorite(int ch) const {
+    return std::find(favorites_.begin(), favorites_.end(), ch) !=
+           favorites_.end();
+  }
+
+  // PDF 15p : 채널 적용 전 유효성 검사 및 실제 튜너 호출
   void applyChannel(int ch) {
     if (ch >= 0 && ch <= 99) {
       tuner->setCH(std::to_string(ch));
@@ -35,6 +44,22 @@ private:
 
 public:
   explicit TVController(Tuner *tuner) : tuner(tuner) {}
+
+  void pressFavorite() {
+    int ch = std::stoi(tuner->getCurrentCH());
+
+    if (isFavorite(ch)) {
+      // 이미 있으면 삭제
+      favorites_.erase(std::remove(favorites_.begin(), favorites_.end(), ch),
+                       favorites_.end());
+    } else {
+      // 없으면 추가 및 정렬
+      favorites_.push_back(ch);
+      std::sort(favorites_.begin(), favorites_.end());
+    }
+  }
+
+  const std::vector<int> &getFavoriteChannels() const { return favorites_; }
 
   void pushButton(remoteKey key) {
     if (key == remoteKey::KEY_OK) {

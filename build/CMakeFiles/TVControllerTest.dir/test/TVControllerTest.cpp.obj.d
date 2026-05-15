@@ -107,8 +107,8 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
  C:/mingw64/include/c++/15.2.0/typeinfo \
  C:/mingw64/include/c++/15.2.0/bits/nested_exception.h \
- C:/DEV/TDD_TV_15/include/remoteKey.h C:\DEV\TDD_TV_15\test\FakeTuner.h \
- C:/DEV/TDD_TV_15/include/Tuner.h C:/mingw64/include/c++/15.2.0/algorithm \
+ C:/DEV/TDD_TV_15/include/remoteKey.h \
+ C:/mingw64/include/c++/15.2.0/algorithm \
  C:/mingw64/include/c++/15.2.0/bits/stl_algo.h \
  C:/mingw64/include/c++/15.2.0/bits/algorithmfwd.h \
  C:/mingw64/include/c++/15.2.0/bits/stl_heap.h \
@@ -121,6 +121,7 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
  C:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
  C:/mingw64/include/c++/15.2.0/bits/vector.tcc \
+ C:\DEV\TDD_TV_15\test\FakeTuner.h C:/DEV/TDD_TV_15/include/Tuner.h \
  C:/DEV/TDD_TV_15/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
  C:/mingw64/include/c++/15.2.0/cstdint \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
