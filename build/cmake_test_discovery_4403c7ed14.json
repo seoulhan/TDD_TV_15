@@ -18,9 +18,9 @@
       "tests": 1,
       "testsuite": [
         {
-          "name": "testFramework",
+          "name": "PressNumber4ThenConfirm",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 13
+          "line": 18
         }
       ]
     }

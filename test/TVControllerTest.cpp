@@ -1,15 +1,23 @@
-#include <gtest/gtest.h>
-#include <gmock/gmock.h>
-#include "Tuner.h"
 #include "TVController.h"
+#include "FakeTuner.h" // 방금 만든 FakeTuner 포함
+#include <gtest/gtest.h>
 
-class MockTunerForController : public Tuner {
-public:
-    MOCK_METHOD(std::string, seekCH, (), (override));
-    MOCK_METHOD(void, setCH, (const std::string& ch), (override));
-    MOCK_METHOD(std::string, getCurrentCH, (), (override));
+class TVControllerTest : public ::testing::Test {
+protected:
+  std::unique_ptr<FakeTuner> tuner;
+  std::unique_ptr<TVController> ctrl;
+
+  void SetUp() override {
+    // 시청 가능한 채널 목록: 1, 4, 12, 56
+    tuner = std::make_unique<FakeTuner>(std::vector<int>{1, 4, 12, 56});
+    ctrl = std::make_unique<TVController>(tuner.get());
+  }
 };
 
-TEST(TVControllerTest, testFramework) {
-    // fail();
+// S1-1: 한 자리 입력 + 확인 -> 채널 변경
+TEST_F(TVControllerTest, PressNumber4ThenConfirm) {
+  ctrl->pushButton(remoteKey::KEY_4);
+  ctrl->pushButton(remoteKey::KEY_OK);
+
+  EXPECT_EQ("4", tuner->getCurrentCH());
 }

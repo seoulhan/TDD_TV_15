@@ -411,21 +411,6 @@ CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj: C:/DEV/TDD_TV_15/test
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h
 
 CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: C:/DEV/TDD_TV_15/test/TVControllerTest.cpp \
-  _deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock.h \
-  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
-  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
-  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
-  _deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
-  _deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
-  _deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
   _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
   _deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
   _deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
@@ -518,7 +503,6 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: C:/DEV/TDD_TV_15/
   C:/mingw64/include/c++/15.2.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/15.2.0/bits/shared_ptr_atomic.h \
   C:/mingw64/include/c++/15.2.0/bits/shared_ptr_base.h \
-  C:/mingw64/include/c++/15.2.0/bits/specfun.h \
   C:/mingw64/include/c++/15.2.0/bits/sstream.tcc \
   C:/mingw64/include/c++/15.2.0/bits/std_abs.h \
   C:/mingw64/include/c++/15.2.0/bits/std_function.h \
@@ -561,7 +545,6 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: C:/DEV/TDD_TV_15/
   C:/mingw64/include/c++/15.2.0/cctype \
   C:/mingw64/include/c++/15.2.0/cerrno \
   C:/mingw64/include/c++/15.2.0/clocale \
-  C:/mingw64/include/c++/15.2.0/cmath \
   C:/mingw64/include/c++/15.2.0/compare \
   C:/mingw64/include/c++/15.2.0/concepts \
   C:/mingw64/include/c++/15.2.0/condition_variable \
@@ -612,18 +595,6 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: C:/DEV/TDD_TV_15/
   C:/mingw64/include/c++/15.2.0/string \
   C:/mingw64/include/c++/15.2.0/string_view \
   C:/mingw64/include/c++/15.2.0/system_error \
-  C:/mingw64/include/c++/15.2.0/tr1/bessel_function.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/beta_function.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/ell_integral.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/exp_integral.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/gamma.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/hypergeometric.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/legendre_function.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/modified_bessel_func.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/poly_hermite.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/poly_laguerre.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc \
-  C:/mingw64/include/c++/15.2.0/tr1/special_function_util.h \
   C:/mingw64/include/c++/15.2.0/tuple \
   C:/mingw64/include/c++/15.2.0/type_traits \
   C:/mingw64/include/c++/15.2.0/typeinfo \
@@ -673,7 +644,6 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: C:/DEV/TDD_TV_15/
   C:/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -700,7 +670,8 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: C:/DEV/TDD_TV_15/
   C:/mingw64/x86_64-w64-mingw32/include/time.h \
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
-  C:/mingw64/x86_64-w64-mingw32/include/wctype.h
+  C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/DEV/TDD_TV_15/test/FakeTuner.h
 
 
 C:/DEV/TDD_TV_15/test/TVControllerTest.cpp:
@@ -752,6 +723,8 @@ C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
+
+C:/DEV/TDD_TV_15/test/FakeTuner.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h:
 
