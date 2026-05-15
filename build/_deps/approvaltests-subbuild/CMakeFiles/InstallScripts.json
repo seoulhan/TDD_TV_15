@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

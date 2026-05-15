@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate-complete.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-build.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-configure.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-download.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-install.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-test.rule"
+		},
+		{
+			"file" : "C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"approvaltests-populate"
+		],
+		"name" : "approvaltests-populate"
+	}
+}
