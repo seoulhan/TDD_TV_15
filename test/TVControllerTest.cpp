@@ -29,6 +29,17 @@ TEST_F(TVControllerTest, Press1Then2_AutoChange) {
   EXPECT_EQ("12", tuner->getCurrentCH());
 }
 
+// S1-4: 세 자리 입력 중 기타 버튼 누르면 무효화
+TEST_F(TVControllerTest, OtherButtonCancelsBuffer) {
+  ctrl->pushButton(remoteKey::KEY_4);
+  ctrl->pushButton(remoteKey::KEY_5);     // 45번 채널 변경됨
+  ctrl->pushButton(remoteKey::KEY_6);     // 버퍼에 6 들어감
+  ctrl->pushButton(remoteKey::KEY_OTHER); // 버퍼 지워짐
+
+  // 6번으로 변경되지 않고 마지막 채널인 45번 유지 확인
+  EXPECT_EQ("45", tuner->getCurrentCH());
+}
+
 // S2-1: 시청 중인 채널을 선호 채널에 추가
 TEST_F(TVControllerTest, FavoriteAdd_NewChannel) {
   // 1. 튜너를 12번 채널로 맞춤 (FakeTuner의 상태 활용)
@@ -95,4 +106,43 @@ TEST_F(TVControllerTest, NextFavorite_WrapAround) {
   ctrl->pressNextFavorite();
 
   EXPECT_EQ("1", tuner->getCurrentCH()); // 첫 번째인 1로 돌아가기 기대
+}
+
+// 예외 상황 테스트
+TEST_F(TVControllerTest, InvalidChannelThrows) {
+  EXPECT_THROW(ctrl->applyChannel(100), std::invalid_argument);
+  EXPECT_THROW(ctrl->applyChannel(-1), std::invalid_argument);
+}
+
+TEST_F(TVControllerTest, SearchAndRestoreOriginalChannel) {
+  tuner->setCH("12"); // 원래 12번 보고 있었음
+  ctrl->pushButton(remoteKey::KEY_SEARCH);
+
+  // 검색 결과 확인 (FakeTuner setup에 따른 1, 4, 12, 56)
+  const auto &scanned = ctrl->getScannedChannels();
+  ASSERT_EQ(4u, scanned.size());
+  EXPECT_EQ(1, scanned[0]);
+
+  // 원래 채널로 복원되었는지 확인
+  EXPECT_EQ("12", tuner->getCurrentCH());
+}
+
+// 3. 업/다운 테스트 (검색 결과가 있을 때) - README 6번 항목
+TEST_F(TVControllerTest, UpDownWithSearchResults) {
+  ctrl->pushButton(remoteKey::KEY_SEARCH); // 4, 6, 14 등이 있다고 가정할 때
+                                           // (Setup 변경 필요)
+
+  // 가상의 검색 결과 주입을 위해 Fixture에서 Tuner 설정을 조정한 후 테스트
+  // 15번 시청 중 업 누르면 가장 작은 4번으로 가는지 확인 등
+}
+
+// 4. 버퍼 무효화 테스트 - README 1번 항목
+TEST_F(TVControllerTest, OtherButtonCancelsNumberBuffer) {
+  ctrl->pushButton(remoteKey::KEY_4);
+  ctrl->pushButton(remoteKey::KEY_5);     // 45번 이동
+  ctrl->pushButton(remoteKey::KEY_6);     // 버퍼에 6
+  ctrl->pushButton(remoteKey::KEY_OTHER); // 무효화
+  ctrl->pushButton(remoteKey::KEY_OK);    // OK 눌러도 변화 없어야 함
+
+  EXPECT_EQ("45", tuner->getCurrentCH());
 }

@@ -1,5 +1,5 @@
 {
-  "tests": 8,
+  "tests": 13,
   "name": "AllTests",
   "testsuites": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "name": "TVControllerTest",
-      "tests": 7,
+      "tests": 12,
       "testsuite": [
         {
           "name": "PressNumber4ThenConfirm",
@@ -28,29 +28,54 @@
           "line": 25
         },
         {
-          "name": "FavoriteAdd_NewChannel",
+          "name": "OtherButtonCancelsBuffer",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
           "line": 33
         },
         {
+          "name": "FavoriteAdd_NewChannel",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 44
+        },
+        {
           "name": "FavoriteToggle_Remove",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 46
+          "line": 57
         },
         {
           "name": "FavoriteToggleScenario",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 56
+          "line": 67
         },
         {
           "name": "NextFavorite_Normal",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 73
+          "line": 84
         },
         {
           "name": "NextFavorite_WrapAround",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 88
+          "line": 99
+        },
+        {
+          "name": "InvalidChannelThrows",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 112
+        },
+        {
+          "name": "SearchAndRestoreOriginalChannel",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "UpDownWithSearchResults",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 131
+        },
+        {
+          "name": "OtherButtonCancelsNumberBuffer",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 140
         }
       ]
     }

@@ -10,39 +10,113 @@
 class TVController {
 private:
   Tuner *tuner;
-  int inputBuffer_ = -1;       // -1: 버퍼 비어있음
-  std::vector<int> favorites_; // 선호 채널 목록
+  int inputBuffer_ = -1;             // -1: 버퍼 비어있음
+  std::vector<int> favorites_;       // 선호 채널 목록
+  std::vector<int> scannedChannels_; // 채널 검색 결과 저장
 
   bool isFavorite(int ch) const {
     return std::find(favorites_.begin(), favorites_.end(), ch) !=
            favorites_.end();
   }
 
-  // PDF 15p : 채널 적용 전 유효성 검사 및 실제 튜너 호출
-  void applyChannel(int ch) {
-    if (ch >= 0 && ch <= 99) {
-      tuner->setCH(std::to_string(ch));
-    }
-  }
-
-  // Enum 키를 숫자로 변환 (이 부분은 추후 모든 숫자로 확장 가능)
-  int keyToDigit(remoteKey key) {
-    switch (key) {
-    case remoteKey::KEY_1:
-      return 1;
-    case remoteKey::KEY_2:
-      return 2;
-    case remoteKey::KEY_3:
-      return 3;
-    case remoteKey::KEY_4:
-      return 4;
-    default:
-      return -1;
-    }
-  }
-
 public:
   explicit TVController(Tuner *tuner) : tuner(tuner) {}
+
+  const std::vector<int> &getScannedChannels() const {
+    return scannedChannels_;
+  }
+
+  void applyChannel(int ch) {
+    if (ch < 0 || ch > 99) {
+      throw std::invalid_argument("Invalid ch"); // PDF 요구사항: 예외 발생
+    }
+    tuner->setCH(std::to_string(ch));
+  }
+
+  //   int keyToDigit(remoteKey key) {
+  //     int val = static_cast<int>(key);
+  //     if (val >= 0 && val <= 9)
+  //       return val;
+  //     return -1;
+  //   }
+
+  void pushButton(remoteKey key) {
+    int val = static_cast<int>(key);
+    if (val >= 0 && val <= 9) { // 숫자 버튼
+      if (inputBuffer_ == -1) {
+        inputBuffer_ = val;
+      } else {
+        int ch = inputBuffer_ * 10 + val;
+        inputBuffer_ = -1;
+        applyChannel(ch);
+      }
+    } else if (key == remoteKey::KEY_OK) {
+      if (inputBuffer_ != -1) {
+        applyChannel(inputBuffer_);
+        inputBuffer_ = -1;
+      }
+    } else if (key == remoteKey::KEY_UP) {
+      pressUp();
+    } else if (key == remoteKey::KEY_DOWN) {
+      pressDown();
+    } else if (key == remoteKey::KEY_SEARCH) {
+      pressSearch();
+    } else if (key == remoteKey::KEY_FAV_ADD) {
+      pressFavorite();
+    } else if (key == remoteKey::KEY_NEXT_FAV) {
+      pressNextFavorite();
+    } else {
+      pressOther();
+    } // S1-4 무효화 로직
+  }
+
+  void pressSearch() {
+    scannedChannels_.clear();
+    std::string startCH = tuner->getCurrentCH();
+
+    tuner->setCH("0");
+
+    while (true) {
+      int found = std::stoi(tuner->seekCH());
+      // 이미 찾은 채널이거나 시작 채널로 돌아왔으면 종료 (실제 Tuner 사양에
+      // 따라 조정)
+      if (std::find(scannedChannels_.begin(), scannedChannels_.end(), found) !=
+          scannedChannels_.end())
+        break;
+      scannedChannels_.push_back(found);
+      std::sort(scannedChannels_.begin(), scannedChannels_.end());
+    }
+
+    tuner->setCH(startCH);
+  }
+
+  // [기능 5, 6] 업/다운 버튼 동작
+  void pressUp() {
+    int cur = std::stoi(tuner->getCurrentCH());
+    if (scannedChannels_.empty()) {
+      applyChannel((cur + 1) % 100);
+    } else {
+      auto it = std::upper_bound(scannedChannels_.begin(),
+                                 scannedChannels_.end(), cur);
+      applyChannel(it == scannedChannels_.end() ? scannedChannels_.front()
+                                                : *it);
+    }
+  }
+
+  void pressDown() {
+    int cur = std::stoi(tuner->getCurrentCH());
+    if (scannedChannels_.empty()) {
+      applyChannel((cur == 0) ? 99 : cur - 1);
+    } else {
+      auto it = std::lower_bound(scannedChannels_.begin(),
+                                 scannedChannels_.end(), cur);
+      if (it == scannedChannels_.begin())
+        it = scannedChannels_.end();
+      applyChannel(*(--it));
+    }
+  }
+
+  const std::vector<int> &getFavoriteChannels() const { return favorites_; }
 
   void pressFavorite() {
     int ch = std::stoi(tuner->getCurrentCH());
@@ -58,53 +132,17 @@ public:
     }
   }
 
-  const std::vector<int> &getFavoriteChannels() const { return favorites_; }
-
   void pressNextFavorite() {
     if (favorites_.empty())
-      return; // S3-4: 목록 비어있으면 무시
+      return;
 
     int cur = std::stoi(tuner->getCurrentCH());
 
-    // 현재 채널보다 큰 첫 번째 요소 찾기 (O(log n))
     auto it = std::upper_bound(favorites_.begin(), favorites_.end(), cur);
-
-    int next;
-    if (it != favorites_.end()) {
-      next = *it; // 현재보다 큰 채널이 있음
-    } else {
-      next = favorites_.front(); // 없으면 첫 번째로
-    }
-
-    applyChannel(next);
+    applyChannel(it == favorites_.end() ? favorites_.front() : *it);
   }
 
-  void pushButton(remoteKey key) {
-    if (key == remoteKey::KEY_OK) {
-      if (inputBuffer_ != -1) {
-        applyChannel(inputBuffer_);
-        inputBuffer_ = -1;
-      }
-      return;
-    }
-
-    if (key == remoteKey::KEY_NEXT_FAV) {
-      pressNextFavorite();
-      return;
-    }
-
-    int digit = keyToDigit(key);
-    if (digit != -1) {
-      if (inputBuffer_ == -1) {
-        inputBuffer_ = digit; // 첫 번째 자리 저장
-      } else {
-        // 두 번째 자리 완성 시 자동 변경 (PDF 15p 힌트 로직)
-        int ch = inputBuffer_ * 10 + digit;
-        inputBuffer_ = -1;
-        applyChannel(ch);
-      }
-    }
-  }
+  void pressOther() { inputBuffer_ = -1; }
 };
 
 #endif
