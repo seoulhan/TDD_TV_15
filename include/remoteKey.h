@@ -13,7 +13,7 @@
 
 #include <string>
 
-enum class remoteKey { KEY_1, KEY_2, KEY_3, KEY_4, KEY_OK };
+enum class remoteKey { KEY_1, KEY_2, KEY_3, KEY_4, KEY_NEXT_FAV, KEY_OK };
 
 inline std::string to_string(remoteKey key) {
   switch (key) {

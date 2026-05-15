@@ -7,7 +7,6 @@
 #include <string>
 #include <vector>
 
-
 class TVController {
 private:
   Tuner *tuner;
@@ -61,12 +60,36 @@ public:
 
   const std::vector<int> &getFavoriteChannels() const { return favorites_; }
 
+  void pressNextFavorite() {
+    if (favorites_.empty())
+      return; // S3-4: 목록 비어있으면 무시
+
+    int cur = std::stoi(tuner->getCurrentCH());
+
+    // 현재 채널보다 큰 첫 번째 요소 찾기 (O(log n))
+    auto it = std::upper_bound(favorites_.begin(), favorites_.end(), cur);
+
+    int next;
+    if (it != favorites_.end()) {
+      next = *it; // 현재보다 큰 채널이 있음
+    } else {
+      next = favorites_.front(); // 없으면 첫 번째로
+    }
+
+    applyChannel(next);
+  }
+
   void pushButton(remoteKey key) {
     if (key == remoteKey::KEY_OK) {
       if (inputBuffer_ != -1) {
         applyChannel(inputBuffer_);
         inputBuffer_ = -1;
       }
+      return;
+    }
+
+    if (key == remoteKey::KEY_NEXT_FAV) {
+      pressNextFavorite();
       return;
     }
 

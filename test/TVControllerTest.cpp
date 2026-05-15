@@ -68,3 +68,31 @@ TEST_F(TVControllerTest, FavoriteToggleScenario) {
   EXPECT_EQ(12, favs[1]);
   EXPECT_EQ(37, favs[2]);
 }
+
+// S3-1 & S3-2: 목록 중 현재보다 큰 채널로 이동
+TEST_F(TVControllerTest, NextFavorite_Normal) {
+  // 선호 채널 등록: {1, 4, 12, 56} (직접 추가 헬퍼가 없으므로 버튼으로
+  // 추가하거나 목록에 직접 삽입)
+  for (int ch : {1, 4, 12, 56}) {
+    tuner->setCH(std::to_string(ch));
+    ctrl->pressFavorite();
+  }
+
+  tuner->setCH("6");         // 현재 6번 시청 중
+  ctrl->pressNextFavorite(); // 다음 선호 채널 버튼 클릭
+
+  EXPECT_EQ("12", tuner->getCurrentCH()); // 6보다 큰 12로 이동 기대
+}
+
+// S3-3: 마지막 채널에서 누르면 첫 번째로 (Wrap-around)
+TEST_F(TVControllerTest, NextFavorite_WrapAround) {
+  tuner->setCH("1");
+  ctrl->pressFavorite();
+  tuner->setCH("56");
+  ctrl->pressFavorite();
+
+  tuner->setCH("56"); // 현재 마지막 선호 채널인 56번 시청 중
+  ctrl->pressNextFavorite();
+
+  EXPECT_EQ("1", tuner->getCurrentCH()); // 첫 번째인 1로 돌아가기 기대
+}

@@ -1,5 +1,5 @@
 {
-  "tests": 6,
+  "tests": 8,
   "name": "AllTests",
   "testsuites": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "name": "TVControllerTest",
-      "tests": 5,
+      "tests": 7,
       "testsuite": [
         {
           "name": "PressNumber4ThenConfirm",
@@ -41,6 +41,16 @@
           "name": "FavoriteToggleScenario",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
           "line": 56
+        },
+        {
+          "name": "NextFavorite_Normal",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 73
+        },
+        {
+          "name": "NextFavorite_WrapAround",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 88
         }
       ]
     }

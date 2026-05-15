@@ -25,8 +25,8 @@
 	ProcessorClockFrequency="1700.000000"
 	>
 	<Testing>
-		<StartDateTime>May 15 16:12 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778829140</StartTestTime>
+		<StartDateTime>May 15 16:26 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778830009</StartTestTime>
 		<TestList>
 			<Test>./ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"</Test>
 		</TestList>
@@ -35,10 +35,10 @@
 			<Path>.</Path>
 			<FullName>./ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"</FullName>
 			<FullCommandLine>C:\DEV\TDD_TV_15\build\TunerTest.exe "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778829140.377770</StartTestTime>
+			<StartTestTime>1778830009.200046</StartTestTime>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.039365</Value>
+					<Value>0.045753</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -57,8 +57,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 15 16:12 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778829140</EndTestTime>
+		<EndDateTime>May 15 16:26 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778830009</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
