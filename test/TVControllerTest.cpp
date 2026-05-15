@@ -21,3 +21,10 @@ TEST_F(TVControllerTest, PressNumber4ThenConfirm) {
 
   EXPECT_EQ("4", tuner->getCurrentCH());
 }
+
+TEST_F(TVControllerTest, Press1Then2_AutoChange) {
+  ctrl->pushButton(remoteKey::KEY_1);
+  ctrl->pushButton(remoteKey::KEY_2); // 두 번째 입력 시 즉시 setCH 호출 기대
+
+  EXPECT_EQ("12", tuner->getCurrentCH());
+}

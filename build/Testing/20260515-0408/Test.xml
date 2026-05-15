@@ -25,20 +25,20 @@
 	ProcessorClockFrequency="1700.000000"
 	>
 	<Testing>
-		<StartDateTime>May 15 15:28 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778826511</StartTestTime>
+		<StartDateTime>May 15 15:52 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778827929</StartTestTime>
 		<TestList>
-			<Test>./ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"</Test>
+			<Test>./TVControllerApprovalTest.GoldenMaster_InitialBehavior</Test>
 		</TestList>
 		<Test Status="passed">
-			<Name>ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"</Name>
+			<Name>TVControllerApprovalTest.GoldenMaster_InitialBehavior</Name>
 			<Path>.</Path>
-			<FullName>./ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"</FullName>
-			<FullCommandLine>C:\DEV\TDD_TV_15\build\TunerTest.exe "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778826511.895472</StartTestTime>
+			<FullName>./TVControllerApprovalTest.GoldenMaster_InitialBehavior</FullName>
+			<FullCommandLine>C:\DEV\TDD_TV_15\build\TVControllerTest.exe "--gtest_filter=TVControllerApprovalTest.GoldenMaster_InitialBehavior" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778827929.042041</StartTestTime>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.046206</Value>
+					<Value>0.100203</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -47,18 +47,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV\TDD_TV_15\build\TunerTest.exe "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4" "--gtest_also_run_disabled_tests"</Value>
+					<Value>C:\DEV\TDD_TV_15\build\TVControllerTest.exe "--gtest_filter=TVControllerApprovalTest.GoldenMaster_InitialBehavior" "--gtest_also_run_disabled_tests"</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Environment">
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJylUcFqg0AQve9XzDEeNA20l0AORdMcCmlR68UV2ejELKy7YXdtf7+uhqCFQsB3mtn3eLNvJu6k5LKBlnG58uCsVQvhlkb7jKZRVKZZuXmhp46LmpY1Xg1tlGoEWjTWN7qatHRoXVU6s6CqyFFZ3MJhkEDaM3DmwqKGHWRM8Dq8MClRmHXaSdTTJycOnFeCNry8qRm5fib57o4C4luGDdhhhstwq03HLQYk9+8o4CDUiYmRR/nNtZItyl6L1u+uf8RTzwf+THKIv44woFgccvSBj/fFXrB6gtZ4i7KNHmCVZcIjj+3UItN+rX7k/GL/XQo0k8F8Tr+Ez9ck2UduoaM2IL/UJ+ir====</Value>
+					<Value encoding="base64" compression="gzip">eJydkU1rwmAMx+/Pp8hRDy0MxIPgQd0oIrrh26WU8QyjPpAmJU27r79qUXQgbP5Pgfzyz9tCDAeQiBwIYY2lwT6QocIQ1tuJsKkQoY6KQqX2dCLiRGiHPPdlw31OOVjwNMajr4OoS4dXZbCsmAMf4AXsbK2SX+KyCoaxS6OrMkhIvjy1eeQ6qHCO3LBoUVX8gm89H43qUlhuFnBW9uxCbTm8z561gE4P8rL7//Gh028KwcQ8dd3fbmXoNdrJN99/4tEHQD3H932ahT9Gq9Xb6+lmLRu7HwzptsA=</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 15 15:28 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778826511</EndTestTime>
+		<EndDateTime>May 15 15:52 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778827929</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

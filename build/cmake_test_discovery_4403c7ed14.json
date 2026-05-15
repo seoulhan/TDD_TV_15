@@ -1,5 +1,5 @@
 {
-  "tests": 2,
+  "tests": 3,
   "name": "AllTests",
   "testsuites": [
     {
@@ -15,12 +15,17 @@
     },
     {
       "name": "TVControllerTest",
-      "tests": 1,
+      "tests": 2,
       "testsuite": [
         {
           "name": "PressNumber4ThenConfirm",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
           "line": 18
+        },
+        {
+          "name": "Press1Then2_AutoChange",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 25
         }
       ]
     }

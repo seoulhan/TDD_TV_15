@@ -31,8 +31,5 @@ TEST(TVControllerApprovalTest, GoldenMaster_InitialBehavior) {
 
   std::cout.rdbuf(old);
 
-  // 3. 복잡한 Reporter 설정 없이 기본형으로 먼저 시도합니다.
-  // 라이브러리 제공 main이 제대로 동작하면 실패 시 터미널에 상세 내용이
-  // 출력됩니다.
   Approvals::verify(buffer.str());
 }

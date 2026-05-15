@@ -1,45 +1,62 @@
-/**
- * Copyright 2020 by Samsung Electronics, Inc.,
- *
- * This software is the confidential and proprietary information
- * of Samsung Electronics, Inc. ("Confidential Information").  You
- * shall not disclose such Confidential Information and shall use
- * it only in accordance with the terms of the license agreement
- * you entered into with Samsung.
- */
-
 #ifndef TV_CONTROLLER_H
 #define TV_CONTROLLER_H
 
 #include "Tuner.h"
 #include "remoteKey.h"
-#include <iostream>
 #include <string>
-
 
 class TVController {
 private:
   Tuner *tuner;
-  std::string processingCH;
+  int inputBuffer_ = -1; // -1: 버퍼 비어있음
 
-  void setTunerCh() {
-    std::cout << "현재 설정하는 채널 : " << processingCH << std::endl;
-    // tuner->setCH(processingCH);
+  // PDF 15p 힌트: 채널 적용 전 유효성 검사 및 실제 튜너 호출
+  void applyChannel(int ch) {
+    if (ch >= 0 && ch <= 99) {
+      tuner->setCH(std::to_string(ch));
+    }
+  }
+
+  // Enum 키를 숫자로 변환 (이 부분은 추후 모든 숫자로 확장 가능)
+  int keyToDigit(remoteKey key) {
+    switch (key) {
+    case remoteKey::KEY_1:
+      return 1;
+    case remoteKey::KEY_2:
+      return 2;
+    case remoteKey::KEY_3:
+      return 3;
+    case remoteKey::KEY_4:
+      return 4;
+    default:
+      return -1;
+    }
   }
 
 public:
-  explicit TVController(Tuner *tuner) : tuner(tuner), processingCH("") {}
+  explicit TVController(Tuner *tuner) : tuner(tuner) {}
 
   void pushButton(remoteKey key) {
-    switch (key) {
-    case remoteKey::KEY_1:
-      processingCH += to_string(key);
-      break;
-    case remoteKey::KEY_OK:
-      setTunerCh();
-      break;
+    if (key == remoteKey::KEY_OK) {
+      if (inputBuffer_ != -1) {
+        applyChannel(inputBuffer_);
+        inputBuffer_ = -1;
+      }
+      return;
+    }
+
+    int digit = keyToDigit(key);
+    if (digit != -1) {
+      if (inputBuffer_ == -1) {
+        inputBuffer_ = digit; // 첫 번째 자리 저장
+      } else {
+        // 두 번째 자리 완성 시 자동 변경 (PDF 15p 힌트 로직)
+        int ch = inputBuffer_ * 10 + digit;
+        inputBuffer_ = -1;
+        applyChannel(ch);
+      }
     }
   }
 };
 
-#endif // TV_CONTROLLER_H
+#endif

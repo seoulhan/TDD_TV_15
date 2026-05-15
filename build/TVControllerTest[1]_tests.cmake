@@ -2,4 +2,6 @@ add_test([=[TVControllerApprovalTest.GoldenMaster_InitialBehavior]=]  C:/DEV/TDD
 set_tests_properties([=[TVControllerApprovalTest.GoldenMaster_InitialBehavior]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV\TDD_TV_15\test\ApprovalTest.cpp:22]==] WORKING_DIRECTORY C:/DEV/TDD_TV_15/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
 add_test([=[TVControllerTest.PressNumber4ThenConfirm]=]  C:/DEV/TDD_TV_15/build/TVControllerTest.exe [==[--gtest_filter=TVControllerTest.PressNumber4ThenConfirm]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[TVControllerTest.PressNumber4ThenConfirm]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV\TDD_TV_15\test\TVControllerTest.cpp:18]==] WORKING_DIRECTORY C:/DEV/TDD_TV_15/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  TVControllerTest_TESTS TVControllerApprovalTest.GoldenMaster_InitialBehavior TVControllerTest.PressNumber4ThenConfirm)
+add_test([=[TVControllerTest.Press1Then2_AutoChange]=]  C:/DEV/TDD_TV_15/build/TVControllerTest.exe [==[--gtest_filter=TVControllerTest.Press1Then2_AutoChange]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[TVControllerTest.Press1Then2_AutoChange]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV\TDD_TV_15\test\TVControllerTest.cpp:25]==] WORKING_DIRECTORY C:/DEV/TDD_TV_15/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  TVControllerTest_TESTS TVControllerApprovalTest.GoldenMaster_InitialBehavior TVControllerTest.PressNumber4ThenConfirm TVControllerTest.Press1Then2_AutoChange)
