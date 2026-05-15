@@ -86,22 +86,40 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\TDD_TV_15\test\TVControllerTest.cpp -o CMakeFiles\TVControllerTest.dir\test\TVControllerTest.cpp.s
 
+CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj: CMakeFiles/TVControllerTest.dir/flags.make
+CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj: CMakeFiles/TVControllerTest.dir/includes_CXX.rsp
+CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj: C:/DEV/TDD_TV_15/test/ApprovalTest.cpp
+CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj: CMakeFiles/TVControllerTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV\TDD_TV_15\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj -MF CMakeFiles\TVControllerTest.dir\test\ApprovalTest.cpp.obj.d -o CMakeFiles\TVControllerTest.dir\test\ApprovalTest.cpp.obj -c C:\DEV\TDD_TV_15\test\ApprovalTest.cpp
+
+CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV\TDD_TV_15\test\ApprovalTest.cpp > CMakeFiles\TVControllerTest.dir\test\ApprovalTest.cpp.i
+
+CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\TDD_TV_15\test\ApprovalTest.cpp -o CMakeFiles\TVControllerTest.dir\test\ApprovalTest.cpp.s
+
 # Object files for target TVControllerTest
 TVControllerTest_OBJECTS = \
-"CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj"
+"CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj" \
+"CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj"
 
 # External object files for target TVControllerTest
 TVControllerTest_EXTERNAL_OBJECTS =
 
 TVControllerTest.exe: CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj
+TVControllerTest.exe: CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj
 TVControllerTest.exe: CMakeFiles/TVControllerTest.dir/build.make
-TVControllerTest.exe: lib/libgtest_main.a
+TVControllerTest.exe: lib/libgtest.a
 TVControllerTest.exe: lib/libgmock.a
+TVControllerTest.exe: _deps/approvaltests-build/ApprovalTests/libApprovalTests.a
 TVControllerTest.exe: lib/libgtest.a
 TVControllerTest.exe: CMakeFiles/TVControllerTest.dir/linkLibs.rsp
 TVControllerTest.exe: CMakeFiles/TVControllerTest.dir/objects1.rsp
 TVControllerTest.exe: CMakeFiles/TVControllerTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\DEV\TDD_TV_15\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TVControllerTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\DEV\TDD_TV_15\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TVControllerTest.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TVControllerTest.dir\link.txt --verbose=$(VERBOSE)
 	C:\mingw64\bin\cmake.exe -D TEST_TARGET=TVControllerTest -D TEST_EXECUTABLE=C:/DEV/TDD_TV_15/build/TVControllerTest.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/DEV/TDD_TV_15/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=TVControllerTest_TESTS -D CTEST_FILE=C:/DEV/TDD_TV_15/build/TVControllerTest[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P C:/mingw64/share/cmake-4.3/Modules/GoogleTestAddTests.cmake
 

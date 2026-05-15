@@ -261,6 +261,30 @@ ApprovalTests/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\approvaltests-build\ApprovalTests\CMakeFiles\ApprovalTests.dir\build.make _deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/build
 .PHONY : ApprovalTests/fast
 
+test/ApprovalTest.obj: test/ApprovalTest.cpp.obj
+.PHONY : test/ApprovalTest.obj
+
+# target to build an object file
+test/ApprovalTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TVControllerTest.dir\build.make CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj
+.PHONY : test/ApprovalTest.cpp.obj
+
+test/ApprovalTest.i: test/ApprovalTest.cpp.i
+.PHONY : test/ApprovalTest.i
+
+# target to preprocess a source file
+test/ApprovalTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TVControllerTest.dir\build.make CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.i
+.PHONY : test/ApprovalTest.cpp.i
+
+test/ApprovalTest.s: test/ApprovalTest.cpp.s
+.PHONY : test/ApprovalTest.s
+
+# target to generate assembly for a file
+test/ApprovalTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TVControllerTest.dir\build.make CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.s
+.PHONY : test/ApprovalTest.cpp.s
+
 test/TVControllerTest.obj: test/TVControllerTest.cpp.obj
 .PHONY : test/TVControllerTest.obj
 
@@ -329,6 +353,9 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... test/ApprovalTest.obj
+	@echo ... test/ApprovalTest.i
+	@echo ... test/ApprovalTest.s
 	@echo ... test/TVControllerTest.obj
 	@echo ... test/TVControllerTest.i
 	@echo ... test/TVControllerTest.s
