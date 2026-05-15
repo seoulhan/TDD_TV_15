@@ -218,8 +218,8 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 # Target rules for target CMakeFiles/TunerTest.dir
 
 # All Build rule for target.
-CMakeFiles/TunerTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/TunerTest.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
+CMakeFiles/TunerTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/TunerTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TunerTest.dir\build.make CMakeFiles/TunerTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TunerTest.dir\build.make CMakeFiles/TunerTest.dir/build
@@ -252,8 +252,8 @@ CMakeFiles/TunerTest.dir/clean:
 # Target rules for target CMakeFiles/TVControllerTest.dir
 
 # All Build rule for target.
-CMakeFiles/TVControllerTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/TVControllerTest.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
+CMakeFiles/TVControllerTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/TVControllerTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TVControllerTest.dir\build.make CMakeFiles/TVControllerTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TVControllerTest.dir\build.make CMakeFiles/TVControllerTest.dir/build
@@ -318,8 +318,8 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\TDD_TV_15\build\CMakeFiles --progress-num=77,78 "Built target gmock_main"

@@ -1,451 +1,451 @@
 [
 {
   "directory": "C:/DEV/TDD_TV_15/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TunerTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TunerTest.dir\\test\\TunerTest.cpp.obj -c C:\\DEV\\TDD_TV_15\\test\\TunerTest.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TunerTest.dir/includes_CXX.rsp -g -std=gnu++17 --coverage -o CMakeFiles\\TunerTest.dir\\test\\TunerTest.cpp.obj -c C:\\DEV\\TDD_TV_15\\test\\TunerTest.cpp",
   "file": "C:/DEV/TDD_TV_15/test/TunerTest.cpp",
   "output": "CMakeFiles/TunerTest.dir/test/TunerTest.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TVControllerTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TVControllerTest.dir\\test\\TVControllerTest.cpp.obj -c C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TVControllerTest.dir/includes_CXX.rsp -g -std=gnu++17 --coverage -o CMakeFiles\\TVControllerTest.dir\\test\\TVControllerTest.cpp.obj -c C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
   "file": "C:/DEV/TDD_TV_15/test/TVControllerTest.cpp",
   "output": "CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/googletest-build/googlemock",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers --coverage -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
   "file": "C:/DEV/TDD_TV_15/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/googletest-build/googlemock",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers --coverage -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
   "file": "C:/DEV/TDD_TV_15/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/googletest-build/googletest",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers --coverage -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
   "file": "C:/DEV/TDD_TV_15/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/googletest-build/googletest",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers --coverage -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
   "file": "C:/DEV/TDD_TV_15/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\ApprovalUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\ApprovalUtils.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\ApprovalUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\ApprovalUtils.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/ApprovalUtils.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/ApprovalUtils.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\Storyboard.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\Storyboard.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\Storyboard.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\Storyboard.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/Storyboard.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/Storyboard.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\comparators\\ComparatorDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\comparators\\ComparatorDisposer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\comparators\\ComparatorDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\comparators\\ComparatorDisposer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/comparators/ComparatorDisposer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/comparators/ComparatorDisposer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\comparators\\ComparatorFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\comparators\\ComparatorFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\comparators\\ComparatorFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\comparators\\ComparatorFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/comparators/ComparatorFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/comparators/ComparatorFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\comparators\\TextFileComparator.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\comparators\\TextFileComparator.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\comparators\\TextFileComparator.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\comparators\\TextFileComparator.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/comparators/TextFileComparator.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/comparators/TextFileComparator.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\core\\ApprovalException.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\core\\ApprovalException.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\core\\ApprovalException.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\core\\ApprovalException.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/core/ApprovalException.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/core/ApprovalException.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\core\\FileApprover.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\core\\FileApprover.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\core\\FileApprover.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\core\\FileApprover.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/core/FileApprover.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/core/FileApprover.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\core\\Options.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\core\\Options.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\core\\Options.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\core\\Options.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/core/Options.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/core/Options.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\integrations\\FrameworkIntegrations.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\integrations\\FrameworkIntegrations.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\integrations\\FrameworkIntegrations.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\integrations\\FrameworkIntegrations.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/integrations/FrameworkIntegrations.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/integrations/FrameworkIntegrations.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\integrations\\google\\GoogleConfiguration.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\integrations\\google\\GoogleConfiguration.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\integrations\\google\\GoogleConfiguration.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\integrations\\google\\GoogleConfiguration.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/integrations/google/GoogleConfiguration.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/integrations/google/GoogleConfiguration.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\integrations\\google\\GoogleCustomizationsFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\integrations\\google\\GoogleCustomizationsFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\integrations\\google\\GoogleCustomizationsFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\integrations\\google\\GoogleCustomizationsFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/integrations/google/GoogleCustomizationsFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/integrations/google/GoogleCustomizationsFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\launchers\\SystemLauncher.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\launchers\\SystemLauncher.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\launchers\\SystemLauncher.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\launchers\\SystemLauncher.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/launchers/SystemLauncher.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/launchers/SystemLauncher.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\ApprovalTestNamer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\ApprovalTestNamer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\ApprovalTestNamer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\ApprovalTestNamer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/ApprovalTestNamer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/ApprovalTestNamer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\DefaultNamerDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\DefaultNamerDisposer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\DefaultNamerDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\DefaultNamerDisposer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/DefaultNamerDisposer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/DefaultNamerDisposer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\DefaultNamerFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\DefaultNamerFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\DefaultNamerFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\DefaultNamerFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/DefaultNamerFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/DefaultNamerFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\ExistingFileNamer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\ExistingFileNamer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\ExistingFileNamer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\ExistingFileNamer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/ExistingFileNamer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/ExistingFileNamer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\FileNameSanitizerDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\FileNameSanitizerDisposer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\FileNameSanitizerDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\FileNameSanitizerDisposer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/FileNameSanitizerDisposer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/FileNameSanitizerDisposer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\FileNameSanitizerFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\FileNameSanitizerFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\FileNameSanitizerFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\FileNameSanitizerFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/FileNameSanitizerFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/FileNameSanitizerFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\HelpMessages.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\HelpMessages.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\HelpMessages.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\HelpMessages.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/HelpMessages.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/HelpMessages.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\NamerFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\NamerFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\NamerFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\NamerFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/NamerFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/NamerFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\SectionNameDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\SectionNameDisposer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\SectionNameDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\SectionNameDisposer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/SectionNameDisposer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/SectionNameDisposer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\SeparateApprovedAndReceivedDirectoriesNamer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\SeparateApprovedAndReceivedDirectoriesNamer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\SeparateApprovedAndReceivedDirectoriesNamer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\SeparateApprovedAndReceivedDirectoriesNamer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/SeparateApprovedAndReceivedDirectoriesNamer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/SeparateApprovedAndReceivedDirectoriesNamer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\SubdirectoryDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\SubdirectoryDisposer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\SubdirectoryDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\SubdirectoryDisposer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/SubdirectoryDisposer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/SubdirectoryDisposer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\TemplatedCustomNamer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\TemplatedCustomNamer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\namers\\TemplatedCustomNamer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\namers\\TemplatedCustomNamer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/namers/TemplatedCustomNamer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/namers/TemplatedCustomNamer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\AutoApproveIfMissingReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\AutoApproveIfMissingReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\AutoApproveIfMissingReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\AutoApproveIfMissingReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/AutoApproveIfMissingReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/AutoApproveIfMissingReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\AutoApproveReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\AutoApproveReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\AutoApproveReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\AutoApproveReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/AutoApproveReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/AutoApproveReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\BlockingReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\BlockingReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\BlockingReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\BlockingReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/BlockingReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/BlockingReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CIBuildOnlyReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CIBuildOnlyReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CIBuildOnlyReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CIBuildOnlyReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/CIBuildOnlyReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/CIBuildOnlyReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CIBuildOnlyReporterUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CIBuildOnlyReporterUtils.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CIBuildOnlyReporterUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CIBuildOnlyReporterUtils.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/CIBuildOnlyReporterUtils.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/CIBuildOnlyReporterUtils.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\ClipboardReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\ClipboardReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\ClipboardReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\ClipboardReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/ClipboardReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/ClipboardReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CombinationReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CombinationReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CombinationReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CombinationReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/CombinationReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/CombinationReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CommandReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CommandReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CommandReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CommandReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/CommandReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/CommandReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\ConvertForCygwin.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\ConvertForCygwin.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\ConvertForCygwin.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\ConvertForCygwin.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/ConvertForCygwin.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/ConvertForCygwin.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CrossPlatformReporters.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CrossPlatformReporters.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CrossPlatformReporters.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CrossPlatformReporters.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/CrossPlatformReporters.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/CrossPlatformReporters.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CustomReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CustomReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\CustomReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\CustomReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/CustomReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/CustomReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DefaultFrontLoadedReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DefaultFrontLoadedReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DefaultFrontLoadedReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DefaultFrontLoadedReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/DefaultFrontLoadedReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/DefaultFrontLoadedReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DefaultReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DefaultReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DefaultReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DefaultReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/DefaultReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/DefaultReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DefaultReporterDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DefaultReporterDisposer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DefaultReporterDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DefaultReporterDisposer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/DefaultReporterDisposer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/DefaultReporterDisposer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DefaultReporterFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DefaultReporterFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DefaultReporterFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DefaultReporterFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/DefaultReporterFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/DefaultReporterFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DiffInfo.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DiffInfo.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DiffInfo.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DiffInfo.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/DiffInfo.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/DiffInfo.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DiffPrograms.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DiffPrograms.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DiffPrograms.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DiffPrograms.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/DiffPrograms.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/DiffPrograms.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DiffReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DiffReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\DiffReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\DiffReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/DiffReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/DiffReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\EnvironmentVariableReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\EnvironmentVariableReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\EnvironmentVariableReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\EnvironmentVariableReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/EnvironmentVariableReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/EnvironmentVariableReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\FirstWorkingReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\FirstWorkingReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\FirstWorkingReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\FirstWorkingReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/FirstWorkingReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/FirstWorkingReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\FrontLoadedReporterDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\FrontLoadedReporterDisposer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\FrontLoadedReporterDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\FrontLoadedReporterDisposer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/FrontLoadedReporterDisposer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/FrontLoadedReporterDisposer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\FrontLoadedReporterFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\FrontLoadedReporterFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\FrontLoadedReporterFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\FrontLoadedReporterFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/FrontLoadedReporterFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/FrontLoadedReporterFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\GenericDiffReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\GenericDiffReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\GenericDiffReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\GenericDiffReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/GenericDiffReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/GenericDiffReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\LinuxReporters.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\LinuxReporters.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\LinuxReporters.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\LinuxReporters.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/LinuxReporters.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/LinuxReporters.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\MacReporters.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\MacReporters.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\MacReporters.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\MacReporters.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/MacReporters.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/MacReporters.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\QuietReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\QuietReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\QuietReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\QuietReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/QuietReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/QuietReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\ReporterFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\ReporterFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\ReporterFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\ReporterFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/ReporterFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/ReporterFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\TextDiffReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\TextDiffReporter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\TextDiffReporter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\TextDiffReporter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/TextDiffReporter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/TextDiffReporter.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\WindowsReporters.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\WindowsReporters.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\reporters\\WindowsReporters.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\reporters\\WindowsReporters.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/reporters/WindowsReporters.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/reporters/WindowsReporters.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\scrubbers\\Scrubbers.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\scrubbers\\Scrubbers.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\scrubbers\\Scrubbers.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\scrubbers\\Scrubbers.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/scrubbers/Scrubbers.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/scrubbers/Scrubbers.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\DateUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\DateUtils.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\DateUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\DateUtils.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/DateUtils.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/DateUtils.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\EmptyFileCreatorByType.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\EmptyFileCreatorByType.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\EmptyFileCreatorByType.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\EmptyFileCreatorByType.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorByType.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/EmptyFileCreatorByType.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\EmptyFileCreatorDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\EmptyFileCreatorDisposer.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\EmptyFileCreatorDisposer.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\EmptyFileCreatorDisposer.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorDisposer.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/EmptyFileCreatorDisposer.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\EmptyFileCreatorFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\EmptyFileCreatorFactory.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\EmptyFileCreatorFactory.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\EmptyFileCreatorFactory.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorFactory.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/EmptyFileCreatorFactory.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\ExceptionCollector.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\ExceptionCollector.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\ExceptionCollector.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\ExceptionCollector.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/ExceptionCollector.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/ExceptionCollector.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\FileUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\FileUtils.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\FileUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\FileUtils.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/FileUtils.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/FileUtils.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\FileUtilsSystemSpecific.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\FileUtilsSystemSpecific.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\FileUtilsSystemSpecific.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\FileUtilsSystemSpecific.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/FileUtilsSystemSpecific.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/FileUtilsSystemSpecific.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\Grid.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\Grid.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\Grid.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\Grid.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/Grid.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/Grid.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\MachineBlocker.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\MachineBlocker.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\MachineBlocker.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\MachineBlocker.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/MachineBlocker.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/MachineBlocker.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\MoreHelpMessages.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\MoreHelpMessages.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\MoreHelpMessages.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\MoreHelpMessages.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/MoreHelpMessages.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/MoreHelpMessages.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\Path.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\Path.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\Path.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\Path.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/Path.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/Path.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\StringUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\StringUtils.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\StringUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\StringUtils.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/StringUtils.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/StringUtils.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\SystemUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\SystemUtils.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\utilities\\SystemUtils.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\utilities\\SystemUtils.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/utilities/SystemUtils.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/utilities/SystemUtils.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\writers\\ExistingFile.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\writers\\ExistingFile.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\writers\\ExistingFile.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\writers\\ExistingFile.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/writers/ExistingFile.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/writers/ExistingFile.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-build/ApprovalTests",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\writers\\StringWriter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\writers\\StringWriter.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow -o CMakeFiles\\ApprovalTests.dir\\writers\\StringWriter.cpp.obj -c C:\\DEV\\TDD_TV_15\\build\\_deps\\approvaltests-src\\ApprovalTests\\writers\\StringWriter.cpp",
   "file": "C:/DEV/TDD_TV_15/build/_deps/approvaltests-src/ApprovalTests/writers/StringWriter.cpp",
   "output": "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/writers/StringWriter.cpp.obj"
 }

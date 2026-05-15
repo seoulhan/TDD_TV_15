@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/ApprovalTests.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++11 -Wall -Wextra -Wpedantic -Werror -Wshadow
+CXX_FLAGS = -g -std=gnu++11 --coverage -Wall -Wextra -Wpedantic -Werror -Wshadow
 
