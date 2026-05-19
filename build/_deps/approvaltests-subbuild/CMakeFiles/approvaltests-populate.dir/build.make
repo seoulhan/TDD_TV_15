@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\mingw64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\mingw64\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,59 +77,59 @@ CMakeFiles/approvaltests-populate-complete: approvaltests-populate-prefix/src/ap
 CMakeFiles/approvaltests-populate-complete: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-install
 CMakeFiles/approvaltests-populate-complete: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-test
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'approvaltests-populate'"
-	C:\mingw64\bin\cmake.exe -E make_directory C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/CMakeFiles
-	C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate-complete
-	C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-done
+	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/CMakeFiles
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate-complete
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-done
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update:
 .PHONY : approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-build: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'approvaltests-populate'"
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && C:\mingw64\bin\cmake.exe -E echo_append
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-build
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-build
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-configure: approvaltests-populate-prefix/tmp/approvaltests-populate-cfgcmd.txt
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-configure: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'approvaltests-populate'"
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && C:\mingw64\bin\cmake.exe -E echo_append
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-configure
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-configure
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-download: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-gitinfo.txt
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-download: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-mkdir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'approvaltests-populate'"
-	cd /d C:\DEV\TDD_TV_15\build\_deps && C:\mingw64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/tmp/approvaltests-populate-gitclone.cmake
-	cd /d C:\DEV\TDD_TV_15\build\_deps && C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-download
+	cd /d C:\DEV\TDD_TV_15\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/tmp/approvaltests-populate-gitclone.cmake
+	cd /d C:\DEV\TDD_TV_15\build\_deps && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-download
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-install: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'approvaltests-populate'"
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && C:\mingw64\bin\cmake.exe -E echo_append
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-install
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-install
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'approvaltests-populate'"
-	C:\mingw64\bin\cmake.exe -Dcfgdir= -P C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/tmp/approvaltests-populate-mkdirs.cmake
-	C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-mkdir
+	"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/tmp/approvaltests-populate-mkdirs.cmake
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-mkdir
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch-info.txt
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'approvaltests-populate'"
-	C:\mingw64\bin\cmake.exe -E echo_append
-	C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch
+	"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update:
 .PHONY : approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-test: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'approvaltests-populate'"
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && C:\mingw64\bin\cmake.exe -E echo_append
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && C:\mingw64\bin\cmake.exe -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-test
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-build && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-test
 
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update: approvaltests-populate-prefix/tmp/approvaltests-populate-gitupdate.cmake
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update-info.txt
 approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update: approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-download
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\DEV\TDD_TV_15\build\_deps\approvaltests-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'approvaltests-populate'"
-	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-src && C:\mingw64\bin\cmake.exe -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/tmp/approvaltests-populate-gitupdate.cmake
+	cd /d C:\DEV\TDD_TV_15\build\_deps\approvaltests-src && "C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/DEV/TDD_TV_15/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/tmp/approvaltests-populate-gitupdate.cmake
 
 CMakeFiles/approvaltests-populate.dir/codegen:
 .PHONY : CMakeFiles/approvaltests-populate.dir/codegen

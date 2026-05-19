@@ -13,9 +13,9 @@
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TVControllerTest.dir/includes_CXX.rsp -g -std=gnu++17 --coverage -o CMakeFiles\\TVControllerTest.dir\\test\\ApprovalTest.cpp.obj -c C:\\DEV\\TDD_TV_15\\test\\ApprovalTest.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TVControllerApprovalTest.dir/includes_CXX.rsp -g -std=gnu++17 --coverage -o CMakeFiles\\TVControllerApprovalTest.dir\\test\\ApprovalTest.cpp.obj -c C:\\DEV\\TDD_TV_15\\test\\ApprovalTest.cpp",
   "file": "C:/DEV/TDD_TV_15/test/ApprovalTest.cpp",
-  "output": "CMakeFiles/TVControllerTest.dir/test/ApprovalTest.cpp.obj"
+  "output": "CMakeFiles/TVControllerApprovalTest.dir/test/ApprovalTest.cpp.obj"
 },
 {
   "directory": "C:/DEV/TDD_TV_15/build/_deps/googletest-build/googlemock",

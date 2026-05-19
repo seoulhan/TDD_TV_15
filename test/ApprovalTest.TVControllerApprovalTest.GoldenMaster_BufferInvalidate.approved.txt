@@ -1,0 +1,11 @@
+scenario: BufferInvalidate
+--- cout ---
+(none)
+--- state ---
+currentCH: 45
+favorites: []
+scanned: []
+--- tuner trace ---
+setCH(45)
+getCurrentCH -> 45
+

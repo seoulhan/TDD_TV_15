@@ -1,0 +1,19 @@
+scenario: FavoriteAndNextFavorite
+--- cout ---
+(none)
+--- state ---
+currentCH: 12
+favorites: [12,56]
+scanned: []
+--- tuner trace ---
+setCH(12)
+getCurrentCH -> 12
+setCH(6)
+getCurrentCH -> 6
+setCH(12)
+setCH(56)
+getCurrentCH -> 56
+getCurrentCH -> 56
+setCH(12)
+getCurrentCH -> 12
+

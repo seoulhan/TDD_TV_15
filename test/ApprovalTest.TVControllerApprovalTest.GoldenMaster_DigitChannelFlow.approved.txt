@@ -1,0 +1,16 @@
+scenario: DigitChannelFlow
+--- cout ---
+(none)
+--- state ---
+currentCH: 7
+favorites: []
+scanned: []
+--- tuner trace ---
+setCH(1)
+setCH(12)
+setCH(34)
+setCH(45)
+setCH(6)
+setCH(7)
+getCurrentCH -> 7
+

@@ -1,0 +1,27 @@
+scenario: SearchAndUpDown
+--- cout ---
+(none)
+--- state ---
+currentCH: 14
+favorites: []
+scanned: [4,6,14]
+--- tuner trace ---
+setCH(6)
+getCurrentCH -> 6
+setCH(0)
+seekCH -> 4
+seekCH -> 6
+seekCH -> 14
+seekCH -> 4
+setCH(6)
+getCurrentCH -> 6
+setCH(14)
+getCurrentCH -> 14
+setCH(6)
+setCH(15)
+getCurrentCH -> 15
+setCH(4)
+getCurrentCH -> 4
+setCH(14)
+getCurrentCH -> 14
+

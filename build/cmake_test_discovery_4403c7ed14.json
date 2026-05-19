@@ -1,18 +1,7 @@
 {
-  "tests": 19,
+  "tests": 18,
   "name": "AllTests",
   "testsuites": [
-    {
-      "name": "TVControllerApprovalTest",
-      "tests": 1,
-      "testsuite": [
-        {
-          "name": "GoldenMaster_InitialBehavior",
-          "file": "C:\\DEV\\TDD_TV_15\\test\\ApprovalTest.cpp",
-          "line": 22
-        }
-      ]
-    },
     {
       "name": "TVControllerTest",
       "tests": 18,
