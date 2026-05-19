@@ -1,5 +1,5 @@
 {
-  "tests": 13,
+  "tests": 19,
   "name": "AllTests",
   "testsuites": [
     {
@@ -15,67 +15,97 @@
     },
     {
       "name": "TVControllerTest",
-      "tests": 12,
+      "tests": 18,
       "testsuite": [
         {
-          "name": "PressNumber4ThenConfirm",
-          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 18
-        },
-        {
-          "name": "Press1Then2_AutoChange",
+          "name": "SingleDigitThenOk_ChangesChannel",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
           "line": 25
         },
         {
-          "name": "OtherButtonCancelsBuffer",
+          "name": "TwoDigitsInRow_AutoChangesWithoutOk",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 33
+          "line": 34
         },
         {
-          "name": "FavoriteAdd_NewChannel",
+          "name": "FourDigits_ChangesTwice",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 44
+          "line": 43
         },
         {
-          "name": "FavoriteToggle_Remove",
+          "name": "ThreeDigits_BufferThenOkOrInvalidate",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 57
+          "line": 54
         },
         {
-          "name": "FavoriteToggleScenario",
+          "name": "ZeroThenSeven_ChangesTo7",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 67
+          "line": 80
         },
         {
-          "name": "NextFavorite_Normal",
+          "name": "FavoriteAdd_AddsCurrentChannel",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 84
+          "line": 93
         },
         {
-          "name": "NextFavorite_WrapAround",
+          "name": "FavoriteToggle_RemovesWhenPressedAgain",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 99
+          "line": 103
+        },
+        {
+          "name": "FavoriteToggleScenario_KeepsSortedUnique",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 114
+        },
+        {
+          "name": "NextFavorite_MovesToSmallestGreater",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 132
+        },
+        {
+          "name": "NextFavorite_WrapsToFirst",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 145
+        },
+        {
+          "name": "NextFavorite_EmptyList_NoOp",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 158
+        },
+        {
+          "name": "ChannelSearch_CollectsAvailableSorted",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 171
+        },
+        {
+          "name": "ChannelSearch_RestoresOriginalChannel",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 185
+        },
+        {
+          "name": "UpDownWithoutSearch_IncrementDecrement",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 198
+        },
+        {
+          "name": "UpDownWithoutSearch_WrapsAtBoundaries",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 213
+        },
+        {
+          "name": "UpDownWithSearch_OnListChannel",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 230
+        },
+        {
+          "name": "UpDownWithSearch_OffListChannelWraps",
+          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
+          "line": 248
         },
         {
           "name": "InvalidChannelThrows",
           "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 112
-        },
-        {
-          "name": "SearchAndRestoreOriginalChannel",
-          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 117
-        },
-        {
-          "name": "UpDownWithSearchResults",
-          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 131
-        },
-        {
-          "name": "OtherButtonCancelsNumberBuffer",
-          "file": "C:\\DEV\\TDD_TV_15\\test\\TVControllerTest.cpp",
-          "line": 140
+          "line": 270
         }
       ]
     }
