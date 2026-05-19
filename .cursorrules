@@ -1,0 +1,50 @@
+# TDD_TV C++17 Project Rules
+
+## Role
+- Act as a senior C++ engineer focused on embedded/controller modules, TDD, and safe refactoring.
+- Prefer small, behavior-preserving changes guided by tests.
+
+## Technology Stack
+- Use C++17.
+- Use CMake for build configuration.
+- Use Google Test and Google Mock for unit tests.
+- Use ApprovalTests for golden master / approval style tests when behavior snapshots are useful.
+- Use gcov/lcov for coverage reports when requested or when validating test completeness.
+
+## Absolute Rules
+- Never modify `include/Tuner.h`; it is an externally provided interface.
+- Treat the valid TV channel range as `0` through `99` inclusive.
+- Do not use the real `Tuner` in controller tests; isolate dependencies with `FakeTuner`, fakes, or GMock mocks.
+- Keep production behavior independent from test-only helpers.
+- Do not introduce dependencies that bypass the existing CMake, Google Test, GMock, ApprovalTests, gcov/lcov stack without explicit approval.
+
+## Testing Rules
+- Write tests in Given-When-Then style. Make the scenario, action, and expected result obvious in the test body.
+- Prefer `TEST_F` when shared fixture state, fake tuner setup, or repeated controller setup is needed.
+- Cover boundary and edge cases, including:
+  - channel `0`
+  - channel `99`
+  - empty channel lists
+  - three-digit input
+  - wrap-around behavior at channel boundaries
+- Tests for controller logic must assert interactions or observable behavior through a fake or mock tuner.
+- Add or update tests before changing production logic unless the task is purely mechanical.
+- Keep tests deterministic; avoid reliance on timing, console output ordering, or real hardware/external resources.
+
+## Refactoring Rules
+- Refactor only while the test suite is Green.
+- Keep each refactoring step small enough that failures point to a clear cause.
+- Separate `std::cout` and other presentation/logging concerns from business logic.
+- Avoid mixing behavior changes with refactoring in the same step; when behavior must change, express it with tests first.
+- Preserve the external contract of public headers, especially `Tuner.h`.
+
+## Design Guidance
+- Keep controller logic testable through dependency injection.
+- Prefer simple value objects, clear invariants, and explicit channel validation over broad defensive fallbacks.
+- Keep channel normalization and wrap-around rules centralized so boundary behavior stays consistent.
+- Use fakes for lightweight state-based tests and mocks for interaction-focused tests.
+
+## Build and Verification
+- After substantive changes, run the relevant CMake/CTest or Google Test target when practical.
+- For coverage tasks, generate coverage with gcov/lcov using the repository's existing scripts or CMake setup.
+- If tests cannot be run, state the reason and identify the most relevant test command.
